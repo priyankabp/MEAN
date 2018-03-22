@@ -18,6 +18,8 @@
           <ul class="nav navbar-nav navbar-right">
             <li [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{exact:true}"><a [routerLink]="['/login']">Login  </a></li><br>
             <li [routerLinkActive]="['active']" [routerLinkActiveOptions] = "{exact:true}"><a [routerLink]="['/register']">  Register</a></li>
+            <li><a href="#" (click)="onLogoutClick()">  Logout</a></li>
+            
           </ul>
       </div>
 </nav>
